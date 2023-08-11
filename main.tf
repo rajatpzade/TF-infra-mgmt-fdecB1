@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 terraform {
-  backend =
+  backend "s3" =
 }
 
 resource "aws_instance" "web" {
