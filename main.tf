@@ -7,7 +7,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket = "terraform-state"
-    region = ""
+    region = "amazon-mqa-b6"
     key    = "terraform.tfstate"
   }
 }
