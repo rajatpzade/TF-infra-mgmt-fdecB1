@@ -5,7 +5,10 @@ provider "aws" {
 }
 
 terraform {
-  backend "s3" =
+  backend "s3" {
+    bucket = "terraform-state"
+    key    = "terraform.tfstate"
+  }
 }
 
 resource "aws_instance" "web" {
