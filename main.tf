@@ -84,5 +84,3 @@ resource "aws_instance" "rs4" {
   key_name = aws_key_pair.deployer.id
   tags = {
     Name = "eip"
-  }
-}
