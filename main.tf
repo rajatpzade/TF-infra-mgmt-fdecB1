@@ -1,5 +1,6 @@
 provider "aws" {
-  access_key = ""
+  access_key = "AKIA5VR5QTKGJVKMIVEH"
+  secret_key = ""
 }
 
 
