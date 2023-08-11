@@ -1,4 +1,6 @@
-
+provider "aws" {
+  access_key = ""
+}
 
 
 resource "aws_instance" "web" {
